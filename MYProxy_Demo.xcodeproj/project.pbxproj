@@ -15,6 +15,9 @@
 		D762E71C2100D12C008914C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E71B2100D12C008914C4 /* main.m */; };
 		D762E7262100D12C008914C4 /* MYProxy_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E7252100D12C008914C4 /* MYProxy_DemoTests.m */; };
 		D762E7312100D12C008914C4 /* MYProxy_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E7302100D12C008914C4 /* MYProxy_DemoUITests.m */; };
+		D762E7402100D1D9008914C4 /* MYProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E73F2100D1D9008914C4 /* MYProxy.m */; };
+		D762E7432100D8D7008914C4 /* RYProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E7422100D8D7008914C4 /* RYProxy.m */; };
+		D762E7452100DEC6008914C4 /* NSProxy.md in Resources */ = {isa = PBXBuildFile; fileRef = D762E7442100DEC6008914C4 /* NSProxy.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		D762E72C2100D12C008914C4 /* MYProxy_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYProxy_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D762E7302100D12C008914C4 /* MYProxy_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYProxy_DemoUITests.m; sourceTree = "<group>"; };
 		D762E7322100D12C008914C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D762E73E2100D1D9008914C4 /* MYProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYProxy.h; sourceTree = "<group>"; };
+		D762E73F2100D1D9008914C4 /* MYProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYProxy.m; sourceTree = "<group>"; };
+		D762E7412100D8D7008914C4 /* RYProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYProxy.h; sourceTree = "<group>"; };
+		D762E7422100D8D7008914C4 /* RYProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYProxy.m; sourceTree = "<group>"; };
+		D762E7442100DEC6008914C4 /* NSProxy.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = NSProxy.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		D762E7002100D12C008914C4 = {
 			isa = PBXGroup;
 			children = (
+				D762E7442100DEC6008914C4 /* NSProxy.md */,
 				D762E70B2100D12C008914C4 /* MYProxy_Demo */,
 				D762E7242100D12C008914C4 /* MYProxy_DemoTests */,
 				D762E72F2100D12C008914C4 /* MYProxy_DemoUITests */,
@@ -105,6 +114,10 @@
 				D762E70D2100D12C008914C4 /* AppDelegate.m */,
 				D762E70F2100D12C008914C4 /* ViewController.h */,
 				D762E7102100D12C008914C4 /* ViewController.m */,
+				D762E73E2100D1D9008914C4 /* MYProxy.h */,
+				D762E73F2100D1D9008914C4 /* MYProxy.m */,
+				D762E7412100D8D7008914C4 /* RYProxy.h */,
+				D762E7422100D8D7008914C4 /* RYProxy.m */,
 				D762E7122100D12C008914C4 /* Main.storyboard */,
 				D762E7152100D12C008914C4 /* Assets.xcassets */,
 				D762E7172100D12C008914C4 /* LaunchScreen.storyboard */,
@@ -238,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D762E7452100DEC6008914C4 /* NSProxy.md in Resources */,
 				D762E7192100D12C008914C4 /* LaunchScreen.storyboard in Resources */,
 				D762E7162100D12C008914C4 /* Assets.xcassets in Resources */,
 				D762E7142100D12C008914C4 /* Main.storyboard in Resources */,
@@ -265,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D762E7402100D1D9008914C4 /* MYProxy.m in Sources */,
+				D762E7432100D8D7008914C4 /* RYProxy.m in Sources */,
 				D762E7112100D12C008914C4 /* ViewController.m in Sources */,
 				D762E71C2100D12C008914C4 /* main.m in Sources */,
 				D762E70E2100D12C008914C4 /* AppDelegate.m in Sources */,
